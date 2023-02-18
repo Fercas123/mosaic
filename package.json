@@ -25,7 +25,7 @@
     "copy:rig:images": "cp -r ./assets/[!.]* ./packages/rig/public/img",
     "copy:site:images": "cp -r ./assets/[!.]* ./packages/site/public/img",
     "clean": "turbo run clean",
-    "debug:server":"turbo run debug",
+    "debug:server": "turbo run debug",
     "create:rig": "yarn mosaic-create-site create -g rig -o packages/rig -f",
     "create:site": "yarn mosaic-create-site create -g mosaic -o packages/site -f",
     "deploy": "yarn build:site && yarn copy:site:images",
@@ -93,6 +93,7 @@
   },
   "dependencies": {
     "@types/swagger-ui-react": "^4.11.0",
+    "react-p5": "^1.3.33",
     "swagger-ui-react": "^4.15.5",
     "turbo": "latest"
   },

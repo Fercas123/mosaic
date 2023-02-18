@@ -61,5 +61,11 @@ export default {
     width: '32px',
     color: 'inherit',
     fill: 'currentColor'
+  }),
+  spectrumAnalyser: style({
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    background: 'pink'
   })
 };
